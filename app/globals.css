@@ -1,26 +1,111 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f3f1ee;
+  --foreground: #1a1d20;
+  --muted: #656d73;
+  --panel: #f7f5f1;
+  --dust: #d8d2cc;
+  --charcoal: #111821;
+  --steel: #2d3740;
+  --amber: #d78b2f;
+  --line: rgba(17, 24, 33, 0.12);
+  --font-display: var(--font-playfair), serif;
+  --font-body: var(--font-inter), sans-serif;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+* {
+  box-sizing: border-box;
+  border-color: var(--line);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
+  margin: 0;
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-body);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+::selection {
+  background: rgba(215, 139, 47, 0.28);
+  color: #101923;
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.section-kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.72rem;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--amber);
+  font-weight: 700;
+}
+
+.section-kicker::before {
+  content: "";
+  display: block;
+  width: 2.75rem;
+  height: 1px;
+  background: var(--amber);
+}
+
+.grid-pattern {
+  background-image:
+    linear-gradient(rgba(17, 24, 33, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(17, 24, 33, 0.05) 1px, transparent 1px);
+  background-size: 30px 30px;
+}
+
+.industrial-panel {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgba(17, 24, 33, 0.12);
+  background: rgba(255, 255, 255, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.industrial-panel:hover {
+  transform: translateY(-5px);
+  border-color: rgba(17, 24, 33, 0.22);
+  box-shadow: 0 24px 40px rgba(17, 24, 33, 0.09);
+}
+
+.hero-overlay {
+  background: linear-gradient(
+    90deg,
+    rgba(5, 9, 13, 0.82) 0%,
+    rgba(5, 9, 13, 0.68) 30%,
+    rgba(5, 9, 13, 0.38) 100%
+  );
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
