@@ -4,7 +4,7 @@ import { useState } from 'react'
 import Navbar from '@/app/components/Navbar'
 import Footer from '@/app/components/Footer'
 import { ArrowUpRight, CheckCircle } from 'lucide-react'
-import { company } from '@/app/lib/site'
+import { company, services } from '@/app/lib/site'
 
 export default function ContactPage() {
   const [submitted, setSubmitted] = useState(false)
@@ -69,11 +69,9 @@ export default function ContactPage() {
                     <input name="phone" placeholder="Phone number" className="border border-stone-300 bg-white px-5 py-4 text-sm outline-none transition focus:border-amber-500" />
                     <select name="projectType" className="border border-stone-300 bg-white px-5 py-4 text-sm text-stone-700 outline-none transition focus:border-amber-500">
                       <option value="">Select project type</option>
-                      <option>Engineering</option>
-                      <option>Industrial construction</option>
-                      <option>Roofing systems</option>
-                      <option>Maintenance</option>
-                      <option>Project management</option>
+                      {services.map((service) => (
+                        <option key={service.slug}>{service.title}</option>
+                      ))}
                     </select>
                   </div>
 

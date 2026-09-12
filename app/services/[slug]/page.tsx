@@ -3,11 +3,11 @@ import Link from 'next/link'
 import { ArrowLeft, ArrowUpRight, CheckCircle } from 'lucide-react'
 import Navbar from '@/app/components/Navbar'
 import Footer from '@/app/components/Footer'
-import { capabilities } from '@/app/lib/site'
+import { services } from '@/app/lib/site'
 
 const serviceDetails = Object.fromEntries(
-  capabilities.map((service) => [service.slug, service]),
-) as Record<string, (typeof capabilities)[number]>
+  services.map((service) => [service.slug, service]),
+) as Record<string, (typeof services)[number]>
 
 export default async function ServicePage({
   params,

@@ -15,11 +15,11 @@ const playfair = Playfair_Display({
 })
 
 export const metadata: Metadata = {
-  title: 'YOUR COMPANY NAME | Engineering & Construction',
+  title: 'BDM | Electromechanical & Civil Contracting',
   description:
-    'Industrial engineering, construction and contracting services for performance-focused facilities and infrastructure projects.',
+    'Bashir Ahmad Dost Muhammad Contracting Company delivers electromechanical, civil and industrial contracting services across Saudi Arabia.',
   keywords:
-    'engineering, construction, industrial contracting, project management, infrastructure, roofing systems',
+    'BDM, electromechanical, civil construction, industrial contracting, Saudi Arabia, oil and gas',
 }
 
 export default function RootLayout({
