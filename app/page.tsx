@@ -79,7 +79,7 @@ export default function HomePage() {
             </h1>
 
             <p className="mt-7 max-w-2xl text-base leading-8 text-stone-200 sm:text-lg">
-              Bashir Ahmad Dost Muhammad Contracting Company delivers
+              AUIS delivers
               electromechanical, civil and industrial contracting services
               across demanding project environments in Saudi Arabia.
             </p>
@@ -136,7 +136,7 @@ export default function HomePage() {
         <div className="grid gap-14 lg:grid-cols-[0.8fr_1.2fr] lg:items-start">
           <div>
             <div className="section-kicker">
-              01 / About BDMCO
+              01 / About AUIS
             </div>
 
             <h2 className="mt-6 font-display text-4xl leading-tight text-stone-950 sm:text-5xl">
@@ -149,13 +149,13 @@ export default function HomePage() {
 
           <div className="space-y-6 text-base leading-8 text-stone-700">
             <p>
-              Bashir Ahmad Dost Muhammad Contracting Company is a qualified
+              AUIS is a qualified
               contractor in the Kingdom of Saudi Arabia, directed by a highly
               qualified and experienced technical team.
             </p>
 
             <p>
-              Since its establishment in 2005, BDM has developed its position
+              Since its establishment in 2005, AUIS has developed its position
               in the contracting business through skilled workers,
               professional management and a commitment to quality and safety.
             </p>
@@ -328,7 +328,7 @@ export default function HomePage() {
               </h2>
 
               <p className="mt-6 max-w-md text-sm leading-7 text-stone-600">
-                BDM has delivered services for national and multinational
+                AUIS has delivered services for national and multinational
                 organizations across critical industrial and infrastructure
                 sectors.
               </p>
@@ -346,7 +346,7 @@ export default function HomePage() {
             <div className="relative aspect-[16/9] overflow-hidden border border-stone-300 bg-stone-100">
               <img
                 src="/images/clients/clients-placeholder.jpg"
-                alt="BDM clients and partners"
+                alt="AUIS clients and partners"
                 className="h-full w-full object-cover"
               />
 
@@ -505,7 +505,7 @@ export default function HomePage() {
             <div className="relative aspect-[4/3] overflow-hidden border border-stone-300 bg-stone-200">
               <img
                 src="/images/certifications/certifications-placeholder.jpg"
-                alt="BDM certifications"
+                alt="AUIS certifications"
                 className="h-full w-full object-cover"
               />
 
@@ -535,7 +535,7 @@ export default function HomePage() {
               </h2>
 
               <p className="mt-6 text-sm leading-7 text-stone-600">
-                BDM maintains documented management systems supporting
+                AUIS maintains documented management systems supporting
                 quality, environmental responsibility and occupational
                 health and safety.
               </p>
@@ -611,7 +611,7 @@ export default function HomePage() {
 
               <p className="mt-6 max-w-md text-sm leading-7 text-stone-600">
                 Access approved corporate, quality, HSE and company
-                documentation relating to BDM&apos;s operations and
+                documentation relating to AUIS&apos;s operations and
                 qualifications.
               </p>
 
@@ -629,7 +629,7 @@ export default function HomePage() {
             <div className="relative aspect-[16/10] overflow-hidden border border-stone-300 bg-stone-100">
               <img
                 src="/images/documents/documents-placeholder.jpg"
-                alt="BDM corporate documents"
+                alt="AUIS corporate documents"
                 className="h-full w-full object-cover"
               />
 
@@ -666,7 +666,7 @@ export default function HomePage() {
               </h2>
 
               <p className="mt-5 max-w-xl text-base leading-8 text-stone-300">
-                Contact BDMCO to discuss your engineering, construction and
+                Contact AUIS to discuss your engineering, construction and
                 industrial project requirements.
               </p>
             </div>
@@ -676,7 +676,7 @@ export default function HomePage() {
                 href="/contact"
                 className="inline-flex items-center gap-2 border border-amber-500 bg-amber-500 px-7 py-4 text-[11px] font-semibold uppercase tracking-[0.2em] text-stone-950 transition hover:bg-transparent hover:text-amber-400"
               >
-                Contact BDMCO
+                Contact AUIS
                 <ArrowRight className="h-4 w-4" />
               </Link>
             </div>

@@ -48,14 +48,14 @@ export default function ManagersPage() {
                   <div className="text-[10px] font-medium uppercase tracking-[0.22em] text-amber-600">{member.role}</div>
                   <h3 className="mt-4 font-display text-3xl text-stone-950">{member.name}</h3>
                   <p className="mt-3 text-sm leading-7 text-stone-700">
-                    Supporting BDM&apos;s commitment to quality, safety and dependable project delivery.
+                    Supporting AUIS&apos;s commitment to quality, safety and dependable project delivery.
                   </p>
                   <div className="mt-6 flex gap-3">
                     <Link href="/contact" className="inline-flex flex-1 items-center justify-center gap-2 border border-stone-950 bg-stone-950 px-4 py-3 text-[10px] font-medium uppercase tracking-[0.18em] text-white transition hover:bg-amber-500 hover:text-stone-950">
                       <Phone className="h-4 w-4" />
                       Contact
                     </Link>
-                    <Link href="mailto:info@bdmco.com.sa" className="inline-flex items-center justify-center border border-stone-300 px-4 py-3 text-stone-950 transition hover:border-amber-500 hover:text-amber-600">
+                    <Link href="mailto:info@auis.com.sa" className="inline-flex items-center justify-center border border-stone-300 px-4 py-3 text-stone-950 transition hover:border-amber-500 hover:text-amber-600">
                       <Mail className="h-4 w-4" />
                     </Link>
                   </div>

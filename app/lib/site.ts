@@ -1,11 +1,12 @@
 export const company = {
-  name: 'BASHIR AHMAD DOST MUHAMMAD CONTRACTING COMPANY',
-  shortName: 'BDM',
-  descriptor: 'ELECTROMECHANICAL • CIVIL • INDUSTRIAL CONTRACTING',
+  name: 'AUIS',
+  shortName: 'AUIS',
+  slogan: 'Ali usman integrated service',
+  descriptor: 'Ali usman integrated service',
   shortDescription:
-    'Bashir Ahmad Dost Muhammad Contracting Company is a qualified Saudi contractor delivering reliable electromechanical, civil and industrial construction services.',
+    'AUIS delivers reliable electromechanical, civil and industrial construction services across Saudi Arabia.',
   phone: '+966 13 000 0000',
-  email: 'info@bdmco.com.sa',
+  email: 'info@auis.com.sa',
   location: 'Kingdom of Saudi Arabia',
   address: 'Saudi Arabia',
   hours: 'Sunday - Thursday | 07:00 - 18:00',

@@ -15,11 +15,11 @@ const playfair = Playfair_Display({
 })
 
 export const metadata: Metadata = {
-  title: 'BDM | Electromechanical & Civil Contracting',
+  title: 'AUIS | Ali usman integrated service',
   description:
-    'Bashir Ahmad Dost Muhammad Contracting Company delivers electromechanical, civil and industrial contracting services across Saudi Arabia.',
+    'AUIS, Ali usman integrated service, delivers electromechanical, civil and industrial contracting services across Saudi Arabia.',
   keywords:
-    'BDM, electromechanical, civil construction, industrial contracting, Saudi Arabia, oil and gas',
+    'AUIS, electromechanical, civil construction, industrial contracting, Saudi Arabia, oil and gas',
 }
 
 export default function RootLayout({

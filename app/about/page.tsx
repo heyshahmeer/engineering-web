@@ -34,7 +34,7 @@ export default function AboutPage() {
           <div className="relative mx-auto flex min-h-[560px] max-w-7xl items-end px-4 py-20 sm:px-6 lg:px-8">
             <div className="max-w-4xl">
               <div className="text-[11px] font-medium uppercase tracking-[0.32em] text-amber-400">
-                About BDMCO
+                About AUIS
               </div>
 
               <h1 className="mt-5 font-display text-5xl text-white sm:text-6xl lg:text-7xl">
@@ -90,7 +90,7 @@ export default function AboutPage() {
 
             <div className="space-y-6 text-base leading-8 text-stone-700">
               <p>
-                Bashir Ahmad Dost Muhammad Contracting Company is one of the
+                AUIS is one of the
                 leading qualified contractors in the Kingdom of Saudi Arabia,
                 directed by a highly qualified and experienced technical team.
               </p>
@@ -99,7 +99,7 @@ export default function AboutPage() {
                 The company established its position at the core of the
                 contracting business through a highly skilled workforce and
                 professional management. Over a relatively short period,
-                BDMCO has advanced rapidly and successfully accomplished
+                AUIS has advanced rapidly and successfully accomplished
                 numerous projects for national and multinational companies.
               </p>
 
@@ -142,7 +142,7 @@ export default function AboutPage() {
                     <div className="aspect-[3/4] overflow-hidden bg-stone-300">
                       <img
                         src="/images/chairman.jpg"
-                        alt="Bashir Ahmad Dost Muhammad"
+                        alt="AUIS"
                         className="h-full w-full object-cover"
                       />
                     </div>
@@ -188,13 +188,13 @@ export default function AboutPage() {
                 <div className="mt-10 space-y-6 text-sm leading-7 text-stone-700 sm:text-base">
 
                   <p>
-                    Since its establishment in 2005, the Bashir Ahmad Dost Muhammad
+                    Since its establishment in 2005, AUIS
                     Contracting Company, with uncompromising integrity and under the
                     motto of{" "}
                     <span className="font-semibold text-stone-950">
                       “Better Services, Better Quality,”
                     </span>{" "}
-                    BDM has always strived to provide quality services that provide
+                    AUIS has always strived to provide quality services that provide
                     value to our clients.
                   </p>
 
@@ -227,7 +227,7 @@ export default function AboutPage() {
                   <div className="h-16 w-48">
                     <img
                       src="/images/signature.png"
-                      alt="Bashir Ahmad Dost Muhammad signature"
+                      alt="AUIS signature"
                       className="h-full w-full object-contain object-left"
                     />
                   </div>
@@ -255,7 +255,7 @@ export default function AboutPage() {
 
                 <div className="mt-8 space-y-6 text-base leading-8 text-stone-300">
                   <p>
-                    BDMCO combines technical knowledge, experienced personnel
+                    AUIS combines technical knowledge, experienced personnel
                     and professional project management to deliver dependable
                     engineering solutions.
                   </p>
@@ -312,7 +312,7 @@ export default function AboutPage() {
               </h3>
 
               <p className="mt-6 text-base leading-8 text-stone-700">
-                BDMCO is dedicated to serving its clients with the highest
+                AUIS is dedicated to serving its clients with the highest
                 expected standards through a reliable quality system,
                 knowledgeable management and optimum utilization of available
                 resources.

@@ -14,7 +14,7 @@ export default function Footer() {
           <div className="lg:col-span-2">
             <div className="flex items-center gap-3">
               <div className="flex h-11 w-11 items-center justify-center border border-amber-400 bg-stone-900 text-sm font-bold tracking-[0.2em] text-amber-400">
-                BDM
+                AUIS
               </div>
 
               <div>
@@ -23,7 +23,7 @@ export default function Footer() {
                 </div>
 
                 <div className="text-[9px] uppercase tracking-[0.25em] text-stone-400">
-                  Electromechanical & Civil
+                  {company.slogan}
                 </div>
               </div>
             </div>

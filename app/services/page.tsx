@@ -80,7 +80,7 @@ export default function ServicesPage() {
             </h2>
 
             <p className="mt-5 text-base leading-8 text-stone-600">
-              BDMCO provides integrated contracting capabilities across
+              AUIS provides integrated contracting capabilities across
               mechanical, electrical, instrumentation, civil and industrial
               construction disciplines.
             </p>
@@ -206,7 +206,7 @@ export default function ServicesPage() {
                 </h2>
 
                 <p className="mt-5 max-w-2xl text-base leading-8 text-stone-300">
-                  Share your project requirements and scope. BDMCO can review
+                  Share your project requirements and scope. AUIS can review
                   the delivery environment and determine the appropriate
                   contracting capability for the work.
                 </p>

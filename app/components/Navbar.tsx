@@ -44,7 +44,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3">
             <div className="flex h-11 w-11 items-center justify-center border border-amber-500 bg-stone-900 text-sm font-bold tracking-[0.2em] text-amber-400">
-              BDM
+              AUIS
             </div>
 
             <div className="leading-none text-left">
@@ -53,7 +53,7 @@ export default function Navbar() {
               </div>
 
               <div className="mt-1 text-[9px] tracking-[0.26em] text-stone-300">
-                ELECTROMECHANICAL & CIVIL
+                {company.slogan}
               </div>
             </div>
           </Link>
